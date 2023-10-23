@@ -1,0 +1,23 @@
+<div *ngIf="produitTrouve" class="productCard">
+    <h2 class="">Page d'affichage du produit</h2>
+    <ul>
+        <li> 
+            <label for="">ID du Produit :</label>
+            <p class="">{{ produitTrouve.name }}</p>
+        </li>
+        <li> 
+            <label for="">ID du Produit :</label>
+            <p class="">{{ produitTrouve.comments }}</p>
+        </li>
+        <li> 
+            <label for="">ID du Produit :</label>
+            <p class="">{{ produitTrouve.quantity_stock }}</p>
+        </li>
+       
+    </ul>
+    
+</div>
+
+<div *ngIf="!produitTrouve" class="not-found">
+    <p>Produit introuvable</p>
+</div>

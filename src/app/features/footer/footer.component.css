@@ -1,0 +1,26 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to right top, #151515, #17181a, #181a1e, #181e23, #162127);
+    height: 10vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.copyright {
+   
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2%;
+}
